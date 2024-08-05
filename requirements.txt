@@ -1,0 +1,11 @@
+opencv-python
+pandas
+numpy
+Pillow
+torchvision
+torch
+sphinx
+sphinx_rtd_theme
+matplotlib
+livelossplot
+ipython
