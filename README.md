@@ -2,8 +2,6 @@
 
 ## Predicting tropical storm behaviour through Deep Learning
 
-**Team Lilian: Ediz, Pepsi, Fido, Teddy, Jingyi, Zihan, Aimee, Konstantinos**
-
 ### Documentation
 ---
 The API for the helper function can be found on the following website:
@@ -20,18 +18,18 @@ Jupyter notebooks:
     packaged and can be callable in our notebooks.
 - `generate_images_clean.ipynb`: 
     - Includes image generation model development process.
-    - Our best model, which utilizes the difference matrix implemented with convolutional LSTM, is presented.
-    - We were able to get turning motion in our generated images with high resolution. Only drawback is that they
+    - The best model, which utilizes the difference matrix implemented with convolutional LSTM, is presented.
+    - The model is able to get turning motion in our generated images with high resolution. Only drawback is that they
     are brighter than normal images.
-    - At the end, results from our different trials such as classical convolutional LSTM and non-machine learning
+    - At the end, results from different trials such as classical convolutional LSTM and non-machine learning
     methods are presented.
 - `surprise_storm.ipynb`: 
     - Includes surprise storm prediction processes.
-    - We use Method 1 to predict 10 wind speeds, Method 2 to predict the next 3 images. This is because when
+    - Use Method 1 to predict 10 wind speeds, Method 2 to predict the next 3 images. This is because when
     we predict the wind speeds from the predicted images, we got very high speeds due to brighteness.
     - For future work, denoising can be applied to our image generation model to improve this problem.
 
-Our source code is in the `forecaster` package. Most of the functions are called 
+The source code is in the `forecaster` package. Most of the functions are called 
 from this package and used in the jupyter notebooks.
 
 Forecaster package main content:
